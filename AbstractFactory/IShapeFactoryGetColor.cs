@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    class Program
+    interface IShapeFactoryGetColor 
     {
-        static void Main(string[] args)
-        {
-        }
+        IShapeFactory GetFactoryShape(string Color);
+
     }
 }
